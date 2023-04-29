@@ -1,0 +1,765 @@
+ :root {
+     --padd-top-Mobile: 70px;
+     --padd-bottom-Mobile: 70px;
+
+     --padd-top-tablet: 100px;
+     --padd-bottom-tablet: 100px;
+
+ }
+
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+
+
+    .navbar-collapse{
+        background-color: #fafefe;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        border-radius: 5px;
+        padding-top: 8px;
+    }
+     .home-title {
+         font-size: 44px !important;
+         margin-bottom: 28px !important;
+     }
+
+     .home-text {
+         margin-bottom: 28px;
+     }
+
+     .main-btn {
+         background-color: var(--blue-color);
+         color: rgb(255, 255, 255);
+         font-size: 17px;
+         padding: 7px !important;
+         border-radius: 10px;
+         margin-left: 3px;
+         border: none;
+     }
+
+     .home-imgs {
+         display: none;
+     }
+
+     .about {
+         padding-top: var(--padd-top-Mobile) !important;
+         padding-bottom: var(--padd-bottom-Mobile) !important;
+     }
+
+     .about-img {
+         display: none;
+
+     }
+
+     .about-desc h2 {
+         font-size: 30px;
+     }
+
+     .main-title {
+         font-size: 36px;
+
+     }
+
+     .evaluation {
+         padding-top: var(--padd-top-Mobile) !important;
+         padding-bottom: 0px !important;
+     }
+
+     .evaluation .about-desc h2 {
+         font-size: 28px;
+     }
+
+     .evaluation .list-item {
+         width: 360px;
+     }
+
+     .evaluation-img {
+         display: none;
+     }
+
+     .portfolio {
+         padding-top: var(--padd-top-Mobile) !important;
+         padding-bottom: var(--padd-bottom-Mobile) !important;
+
+
+     }
+
+     .portfolio .nav-item {
+         margin-bottom: 10px;
+     }
+
+     .portfolio::before {
+         display: none;
+     }
+
+     .portfolio::after {
+
+         width: 190px;
+         height: 190px;
+         bottom: -60px;
+         left: -60px;
+     }
+
+
+     .reviews {
+         padding-top: var(--padd-top-Mobile) !important;
+         padding-bottom: var(--padd-bottom-Mobile) !important;
+     }
+
+     .reviews .teacher1,
+     .teacher2,
+     .teacher3 {
+         display: none;
+     }
+
+     .reviews .review-card {
+
+         height: 360px !important;
+
+         position: relative;
+         margin-top: 50px;
+     }
+
+     .reviews::before,
+     .reviews::after {
+         display: none;
+     }
+
+     .reviews .review-card img {
+         width: 80px;
+         height: 80px;
+         border-radius: 50%;
+         position: absolute;
+         top: -50px;
+         left: 100px;
+         margin-bottom: 60px;
+     }
+
+     .reviews .review-card h5 {
+         padding-top: 45px;
+     }
+
+     .portfolio-about {
+         padding-top: var(--padd-top-Mobile) !important;
+         padding-bottom: var(--padd-bottom-Mobile) !important;
+     }
+
+     .portfolio-about .card img {
+         display: none;
+     }
+
+     .pricing {
+         padding-top: var(--padd-top-Mobile) !important;
+         padding-bottom: var(--padd-bottom-Mobile) !important;
+     }
+
+     .contact {
+         padding-top: var(--padd-top-Mobile) !important;
+         padding-bottom: var(--padd-bottom-Mobile) !important;
+     }
+
+     .features {
+         padding-top: var(--padd-top-Mobile) !important;
+         padding-bottom: var(--padd-bottom-Mobile) !important;
+     }
+
+     .features .card {
+         margin: auto !important;
+     }
+
+     .features h2 {
+         margin-bottom: 40px !important;
+     }
+
+     .about-seco {
+         padding-top: var(--padd-top-Mobile) !important;
+         padding-bottom: var(--padd-bottom-Mobile) !important;
+     }
+
+
+
+     .about-seco-img {
+         display: none;
+     }
+
+     .about-seco .about-desc .title-section {
+         font-size: 28px !important;
+     }
+
+     .about-seco::after {
+         display: none;
+     }
+
+     .about-seco::before {
+         display: none;
+
+     }
+
+     .features h2 {
+         font-size: 28px !important;
+     }
+
+     .about-seco .about-answer .accordion-item {
+         width: 350px;
+     }
+
+     .about-seco .accordion-button span {
+         margin-right: 0px;
+     }
+
+     .contact .contact-img {
+         display: none;
+     }
+
+     .contact .title-section {
+         margin-bottom: 15px;
+         font-size: 20px;
+     }
+
+     .contact .contact-desc {
+         width: 95% !important;
+         margin: auto;
+         padding-left: 10px;
+     }
+
+     .contact .contact-desc p {
+         letter-spacing: 0.5px;
+         font-size: 15px;
+     }
+
+     .contact-desc .form-group {
+         width: 85%;
+
+     }
+
+     .contact .contact-box {
+         height: 280px;
+     }
+
+     .services {
+         padding-top: 80px !important;
+         padding-bottom: var(--padd-bottom-Mobile) !important;
+     }
+
+     .services p {
+
+         margin-bottom: 40px;
+     }
+
+     #services .evaluation::before {
+         width: 120px;
+         height: 120px;
+         top: -30px;
+         left: -30px;
+     }
+
+     #services .evaluation::after {
+         width: 160px;
+         height: 160px;
+         bottom: -60px;
+         right: -60px;
+     }
+
+     .contact-boxs {
+         padding-top: var(--padd-top-Mobile) !important;
+         padding-bottom: var(--padd-bottom-Mobile) !important;
+     }
+
+     .contact-boxs h2 {
+         margin-bottom: 40px;
+     }
+
+     #contact .contact-boxs .box {
+         margin: auto !important;
+     }
+
+     .map {
+         padding-top: var(--padd-top-Mobile) !important;
+         padding-bottom: var(--padd-bottom-Mobile) !important;
+     }
+ }
+
+ /* Media Query for low resolution  Tablets, Ipads */
+ @media (min-width: 481px) and (max-width: 767px) {
+
+    .navbar-collapse{
+        background-color: #fafefe;
+        margin-top: 7px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        border-radius: 5px;
+        padding-top: 8px;
+    }
+     .home-title {
+         font-size: 54px !important;
+         margin-bottom: 28px !important;
+     }
+
+     .home-imgs {
+         display: none;
+     }
+
+     #home .home-desc p {
+         width: 400px;
+     }
+
+     .about {
+         padding-top: var(--padd-top-tablet);
+         padding-bottom: var(--padd-bottom-tablet);
+     }
+
+     .features .card {
+         margin: auto !important;
+         width: 22rem !important;
+     }
+
+     .about .about-img {
+         display: none;
+     }
+
+
+     .about-seco::before {
+         width: 240px !important;
+         height: 240px !important;
+     }
+
+     .about-seco::after {
+         width: 180px !important;
+         height: 180px !important;
+     }
+
+     .about-seco-img {
+         display: none;
+     }
+
+     .about-seco .about-desc .title-section {
+         font-size: 36px !important;
+     }
+
+
+     .about-seco .about-answer .accordion-item {
+         width: 510px;
+     }
+
+     .about-seco .accordion-button span {
+         margin-right: 0px;
+     }
+
+     .evaluation {
+         padding-top: var(--padd-top-tablet) !important;
+         padding-bottom: var(--padd-bottom-tablet) !important;
+     }
+
+
+
+     .evaluation::before {
+
+         width: 200px !important;
+         height: 200px !important;
+     }
+
+     .evaluation::after {
+         width: 220px !important;
+         height: 220px !important;
+     }
+
+     .portfolio {
+         padding-top: var(--padd-top-tablet) !important;
+         padding-bottom: var(--padd-bottom-tablet) !important;
+     }
+
+     .portfolio-about {
+         padding-top: var(--padd-top-tablet) !important;
+         padding-bottom: var(--padd-bottom-tablet) !important;
+     }
+
+     .pricing {
+         padding-top: var(--padd-top-tablet) !important;
+         padding-bottom: var(--padd-bottom-tablet) !important;
+     }
+
+
+     .contact {
+         padding-top: var(--padd-top-tablet) !important;
+         padding-bottom: var(--padd-bottom-tablet) !important;
+     }
+
+     .features {
+         padding-top: var(--padd-top-tablet) !important;
+         padding-bottom: var(--padd-bottom-tablet) !important;
+     }
+
+     .reviews {
+         padding-top: var(--padd-top-tablet) !important;
+         padding-bottom: var(--padd-bottom-tablet) !important;
+     }
+
+     .reviews .teacher1,
+     .teacher2,
+     .teacher3 {
+         display: none;
+     }
+
+     .reviews .review-card {
+
+         height: 330px !important;
+
+         position: relative;
+         margin-top: 50px;
+     }
+
+     .reviews::before,
+     .reviews::after {
+         display: none;
+     }
+
+     .reviews .review-card img {
+         width: 80px;
+         height: 80px;
+         border-radius: 50%;
+         position: absolute;
+         top: -50px;
+         left: 130px;
+         margin-bottom: 60px;
+     }
+
+     .reviews .review-card h5 {
+
+         padding-top: 45px;
+
+     }
+
+     .about-seco {
+         padding-top: var(--padd-top-tablet) !important;
+         padding-bottom: var(--padd-bottom-tablet) !important;
+     }
+
+     .services {
+         padding-top: var(--padd-top-tablet) !important;
+         padding-bottom: var(--padd-bottom-tablet) !important;
+     }
+
+     .contact-boxs {
+         padding-top: var(--padd-top-tablet) !important;
+         padding-bottom: var(--padd-bottom-tablet) !important;
+     }
+
+     .contact-boxs .box {
+         margin: auto;
+     }
+
+     .contact-boxs h2 {
+         font-size: 28px;
+         margin-bottom: 40px;
+
+     }
+
+     .map {
+         padding-top: var(--padd-top-tablet) !important;
+         padding-bottom: var(--padd-bottom-tablet) !important;
+     }
+
+     .evaluation-img {
+         display: none;
+     }
+
+     .contact .contact-img {
+         display: none;
+     }
+
+     .contact .title-section {
+         margin-bottom: 15px;
+         font-size: 24px;
+     }
+
+     .contact .contact-desc {
+         width: 95% !important;
+         margin: auto;
+         padding-left: 24px;
+     }
+
+     .contact .contact-desc p {
+         letter-spacing: 0.5px;
+         font-size: 15px;
+         font-weight: 600;
+     }
+
+     .portfolio-about .card img {
+         display: none;
+     }
+
+     .portfolio .nav .nav-item {
+         margin-right: 9px;
+     }
+
+     .portfolio .nav .nav-item button {
+         padding: 4px 8px !important;
+     }
+
+     footer p {
+         width: 80%;
+     }
+ }
+
+ /* Media Query for Tablets Ipads portrait mode */
+ @media (min-width: 768px) and (max-width: 1024px) {
+     body {
+         overflow-x: hidden;
+     }
+     .navbar-collapse{
+        background-color: #fafefe;
+        margin-top: 7px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        border-radius: 5px;
+        padding-top: 8px;
+    }
+     .home-content .home-imgs {
+         display: none;
+     }
+
+     .home-content .home-desc .home-text {
+         font-size: 19px;
+         margin-bottom: 25px;
+         width: 480px;
+
+     }
+
+     .about .about-desc {
+         position: absolute;
+         width: 350px;
+     }
+
+
+     .main-title {
+         font-size: 36px;
+         padding: 4px 8px;
+
+     }
+
+     .about .about-img .books-img {
+         display: none;
+     }
+
+     .evaluation-img {
+         display: none;
+     }
+
+     .reviews .review-card img {
+
+         left: 206px;
+     }
+
+     .reviews .review-card {
+         height: 272px;
+     }
+
+     .about-seco-img .books-img {
+         display: none;
+     }
+
+     .about-seco .accordion-flush .accordion-item {
+         width: 100%;
+     }
+
+     .about-seco .about-desc span {
+         margin-right: 14px;
+     }
+
+     .about-seco-img .girl-img {
+         top: 155px;
+     }
+
+     #about .about-seco .title-section {
+         font-size: 34px;
+     }
+
+     #services .home-content .home-title {
+         font-size: 64px;
+         position: relative;
+         bottom: 40px;
+         left: 0px;
+     }
+
+     #services .home-content .home-desc .sec-nav {
+
+         top: 164px;
+     }
+
+     #contact .home-content .home-title {
+         font-size: 64px;
+         position: relative;
+         bottom: 40px;
+         left: 0px;
+     }
+
+     #contact .home-content .home-desc .sec-nav {
+
+         top: 164px;
+     }
+
+     .portfolio-about .card img {
+         display: none;
+     }
+
+     .portfolio-about .card .card-body {
+         width: 350px !important;
+         margin-top: 20px;
+         margin-left: -120px !important;
+     }
+
+     .contact-img {
+         width: fit-content;
+         position: absolute;
+         right: 0px;
+         top: -142px;
+     }
+
+     .contact .contact-img img {
+         width: 186px;
+         height: 280px;
+     }
+
+     footer .nav-link {
+         color: #39394a;
+         padding-left: 38px;
+         font-size: 16px;
+         font-weight: 500;
+     }
+ }
+
+ /* Media Query for Laptops and Desktops */
+ @media (min-width: 1025px) and (max-width: 1280px) {
+     #home {
+         overflow-x: hidden;
+     }
+
+     .home-content .home-imgs .girl-img {
+
+         right: 135px;
+         height: 290px;
+     }
+
+     .home-content .home-imgs .books-img {
+         height: 120px;
+         bottom: 10px;
+         right: 44px;
+         width: 140px;
+     }
+
+     .home-content .home-imgs .bag-img {
+         width: 95px !important;
+         height: 100px !important;
+     }
+
+     .home-content .home-imgs::before {
+
+         width: 270px !important;
+         height: 270px !important;
+         right: 80px !important;
+     }
+
+     .home-content .home-imgs .shape3-img {
+
+         right: 50px !important;
+     }
+
+     .about .about-img .books-img {
+         display: none;
+     }
+
+
+
+     .about-seco-img .girl-img {
+         top: 160px;
+         height: 280px;
+     }
+
+     .about-seco-img .books-img {
+         position: absolute;
+         top: 255px;
+         right: 145px;
+         height: 180px;
+     }
+
+     .reviews .review-card img {
+
+         top: -50px;
+         left: 300px;
+     }
+
+     .reviews .teacher1 {
+
+         right: 105px;
+     }
+
+
+     #about .home-content .second-div {
+         top: 34px;
+         right: 50px !important;
+     }
+
+     #about .features .card {
+         width: 18rem !important;
+         height: 280px;
+     }
+
+     .home-content .home-imgs .service2-img {
+         right: 40px !important;
+     }
+
+     .home-content .home-imgs .service1-img {
+         right: 190px;
+         height: 196px;
+         width: 196px;
+     }
+
+     #portfolio .home-imgs .portfolio-img2 {
+         right: 44px;
+         height: 150px;
+     }
+
+     #portfolio .home-imgs .portfolio-img1 {
+         right: 92px;
+         height: 359px;
+     }
+
+     .portfolio-about .card img {
+         height: 150px;
+
+     }
+
+     footer .footer-imgs img {
+         width: 84px;
+         margin-top: 20px;
+
+     }
+
+     .about-seco .accordion-flush .accordion-item {
+         width: 100%;
+     }
+
+     .about-seco .about-desc span {
+         margin-right: 14px;
+     }
+
+     #contact .home-content .home-imgs::before {
+
+         right: 45px !important;
+         bottom: 50px;
+
+     }
+
+     .contact-boxs .box {
+
+         width: 18rem;
+         height: 95px;
+     }
+
+     footer .nav-link {
+
+         padding-left: 38px;
+
+     }
+ }
